@@ -55,7 +55,7 @@ public:
         printProgress(percent, pos);
     }
 
-    void tickProgress()
+    void incrementProgress()
     {
         setProgress(currentProgress + 1);
     }
